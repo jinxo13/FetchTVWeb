@@ -1,0 +1,15 @@
+*.pyc
+.env
+*.log
+__pycache__
+examples
+build
+/sonar-project.properties
+/run_sonar.cmd
+/run_coverage.bat
+/coverage.xml
+/.coverage
+/venv/
+/htmlcov/
+/.scannerwork/
+/.idea/

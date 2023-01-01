@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>FetchTV Web Client</title>
+    <meta name="description" content="FetchTV Web Client">
+
+    <link rel="icon" href="images/fetchtv.ico">
+
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#3f51b5">
+
+    <!-- Used if adding to homescreen for Chrome on Android. Fallback for manifest.json -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="FetchTV Web Client">
+
+    <!-- Used if adding to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="FetchTV Web Client">
+
+    <script src="js/ext/vue.global.prod.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <script src="js/ext/jquery-3.6.0.slim.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="boxes-tab" data-bs-toggle="tab" data-bs-target="#boxes" type="button" role="tab" aria-controls="boxes" aria-selected="true">Boxes</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="guide-tab" data-bs-toggle="tab" data-bs-target="#guide" type="button" role="tab" aria-controls="guide" aria-selected="false">TV Guide</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="search-guide-tab" data-bs-toggle="tab" data-bs-target="#search" type="button" role="tab" aria-controls="search" aria-selected="false">Search Guide</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="stored-tab" data-bs-toggle="tab" data-bs-target="#stored" type="button" role="tab" aria-controls="stored" aria-selected="false">Stored</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="scheduled-tab" data-bs-toggle="tab" data-bs-target="#scheduled" type="button" role="tab" aria-controls="scheduled" aria-selected="false">Scheduled</button>
+  </li>
+</ul>
+<div id="fetch-boxes">
+</div>
+</div>
+
+<script type="module" src="js/fetch-boxes.js"></script>
+
+</body>
+</html>
