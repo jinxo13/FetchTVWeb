@@ -31,4 +31,4 @@ PIN=yyy
 ```python3 app.py```
 
 4. Navigate to:
-```http://<server>/index.html
+```http://<server>/index.html```
