@@ -29,3 +29,6 @@ PIN=yyy
 
 3. Start the application
 ```python3 app.py```
+
+4. Navigate to:
+```http://<server>/index.html
