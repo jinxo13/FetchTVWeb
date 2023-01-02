@@ -24,8 +24,10 @@ PIN=yyy
 
 ### 2. Running stand alone
 1. Create a .env file containing your FetchTV credentials
+```
 ACTIVATION_CODE=xxx
 PIN=yyy
+```
 
 2. Install Python requirements
 ```pip install -r requirements.txt```
