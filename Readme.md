@@ -6,6 +6,7 @@ Connects to the FetchTV ecosystem allowing:
 - Sending commands to a Fetch Box
 - Recording free-to-air (FTA) programs
 - Listing and deleting recordings
+- Watching recordings (using VLC plugin/mobile app)
 
 ## Installing
 
