@@ -37,3 +37,12 @@ PIN=yyy
 
 4. Navigate to:
 ```http://<server>:5001/index.html```
+
+## Screenshots
+### 1. FetchTV Box control/info
+![](https://raw.githubusercontent.com/jinxo13/FetchTVWeb/main/screenshots/box.png "FetchTV Box")
+
+### 2.TV Guide
+![](https://raw.githubusercontent.com/jinxo13/FetchTVWeb/main/screenshots/tv_guide.png "TV Guide")
+
+
