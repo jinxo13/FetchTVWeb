@@ -39,10 +39,17 @@ PIN=yyy
 ```http://<server>:5001/index.html```
 
 ## Screenshots
-### 1. FetchTV Box control/info
+### FetchTV Box control/info
 ![](https://raw.githubusercontent.com/jinxo13/FetchTVWeb/main/screenshots/box.png "FetchTV Box")
 
-### 2.TV Guide
+### TV Guide
 ![](https://raw.githubusercontent.com/jinxo13/FetchTVWeb/main/screenshots/tv_guide.png "TV Guide")
 
+### Search Guide
+![](https://raw.githubusercontent.com/jinxo13/FetchTVWeb/main/screenshots/search_guide.png "Search Guide")
 
+### List Recordings
+![](https://raw.githubusercontent.com/jinxo13/FetchTVWeb/main/screenshots/recordings.png "Recordings")
+
+### Record Program/Series
+![](https://raw.githubusercontent.com/jinxo13/FetchTVWeb/main/screenshots/record.png "Record")
