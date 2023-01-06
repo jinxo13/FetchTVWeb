@@ -19,13 +19,21 @@ PIN=yyy
 
 3. Run start.sh
 
+4. Navigate to:
+```http://<server>:5002/index.html```
+
 ### 2. Running stand alone
 1. Create a .env file containing your FetchTV credentials
+```
 ACTIVATION_CODE=xxx
 PIN=yyy
+```
 
 2. Install Python requirements
 ```pip install -r requirements.txt```
 
 3. Start the application
 ```python3 app.py```
+
+4. Navigate to:
+```http://<server>:5001/index.html```
