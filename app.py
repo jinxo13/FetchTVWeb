@@ -4,6 +4,7 @@ from datetime import datetime
 
 import flask
 import requests
+import json
 from dotenv import load_dotenv
 from flask import Flask, request, Response, stream_with_context
 from pyfetchtv.api.const.remote_keys import RemoteKey
@@ -172,10 +173,14 @@ def dvb_channels():
     for box in fetchtv.get_boxes().values():
         result = {k: v.to_dict() for k, v in box.dvb_channels.items()}
         break
-    response = flask.jsonify(result)
+    response = Response(
+        response=json.dumps(result),
+        status=200,
+        mimetype='application/json'
+    )
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
-
+    
 
 @app.route("/change_channel")
 def change_channel():
